@@ -1,2 +1,4 @@
 *terraform*
 *tfstate*
+kubeadm_join
+admin.conf*

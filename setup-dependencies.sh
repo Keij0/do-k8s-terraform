@@ -40,4 +40,4 @@ update-grub
 mkdir -p /etc/containerd
 containerd config default | sed 's/SystemdCgroup = false/SystemdCgroup = true/g' | sudo tee /etc/containerd/config.toml
 
-reboot &
+shutdown -r -t 00
